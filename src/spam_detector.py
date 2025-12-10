@@ -20,7 +20,8 @@ from sklearn.metrics import (
 # Make sure spam.csv is in the same folder as this script
 print("Loading dataset...")
 
-df = pd.read_csv("spam.csv", encoding="latin-1")
+df = pd.read_csv("../data/spam.csv", encoding="latin-1")
+
 
 # Keep only the first 2 columns (label + message)
 # Many Kaggle/other versions have extra unnamed columns
